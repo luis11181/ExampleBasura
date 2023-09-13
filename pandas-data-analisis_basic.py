@@ -2,6 +2,8 @@ import pandas as pd  # importa pandas
 import numpy as np
 import matplotlib as plt
 
+# pip install -r requirements.txt
+
 # ? en el notebook de jupiter se piede poner un "!", y asi instalar desde el libro y no terminal todo !pip install -r requirements.txt
 # pip install ipykernel   # era para usar jupiter
 
