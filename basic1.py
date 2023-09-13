@@ -41,7 +41,7 @@ def explain_scopes():
             print(f"Inside inner_function2, local_variable is {local_variable2}")
 
         inner_function2()
-        print(f"Inside outer_function, local_variable is {local_variable2}")
+        print(f"Inside outer_function2, local_variable is {local_variable2}")
 
     outer_function()
 
