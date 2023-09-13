@@ -19,12 +19,15 @@ def explain_data_types():
 
 
 # Explaining scopes
+global_variable = "I'm a global variable"
+
+
 def explain_scopes():
     print("\n=== Scopes in Python ===")
-    global_variable = "I'm a global variable"
     print(f"In the main scope, global_variable is {global_variable}")
 
     def outer_function():
+        global global_variable  # modifies the global variable
         local_variable = "I'm a local variable of outer_function"
         local_variable2 = "I'm a local variable of outer_function"
 
